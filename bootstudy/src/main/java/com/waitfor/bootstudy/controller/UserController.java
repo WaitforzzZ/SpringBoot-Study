@@ -15,8 +15,8 @@ public class UserController {
 	public JSONResult getUser() {
 		User u = new User();
 		u.setName("waitfor");
-		u.setPassword("123456");
-		u.setAge(18);
+		u.setPassword("1234567");
+		u.setAge(20);
 		u.setBirthday(new Date());
 		return JSONResult.ok(u);
 	}
